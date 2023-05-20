@@ -1,0 +1,8 @@
+setup.py
+mfinance/__init__.py
+mfinance/mfinance.py
+mfinance.egg-info/PKG-INFO
+mfinance.egg-info/SOURCES.txt
+mfinance.egg-info/dependency_links.txt
+mfinance.egg-info/requires.txt
+mfinance.egg-info/top_level.txt
