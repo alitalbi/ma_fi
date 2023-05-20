@@ -4,9 +4,9 @@ setup(
     name='mfinance',
     version='0.1.0',
     description='Library for accessing financial data of Moroccan stock exchange companies',
-    author='Your Name',
-    author_email='your@email.com',
-    url='https://github.com/yourusername/mfinance',
+    author='Ali Talbi',
+    author_email='alitalbi73@gmail.com',
+    url='https://github.com/alitalbi/mfinance',
     packages=['mfinance'],
     install_requires=[
         'pandas',
