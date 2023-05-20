@@ -39,8 +39,4 @@ class mfinance:
         return (data)  # Modify as per your requirement
         # return data  # Uncomment this line if you want to return the data
 
-# Example usage:
-m = mfinance()
-print("Available company names:", m.available_names)
-data = m.download("CIH", "2023-01-01", "2023-05-31", "1d")
-print(data)
+
