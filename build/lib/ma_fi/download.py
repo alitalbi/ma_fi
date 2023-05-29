@@ -48,9 +48,13 @@ def download(name, start_date, end_date, period):
 
 
 def data(stock_name,start_date,end_date,period):
-
+    if stock_name not in available_names:
+        print("Invalid company name.")
+        return
+    if " " in stock_name:
+        stock_name = stock_name.replace(" ","%20")
     stock_data = pd.read_csv(
-        "https://raw.githubusercontent.com/alitalbi/mfinance/master/data_stocks/" + stock_name + ".csv")
+        "https://raw.githubusercontent.com/alitalbi/ma_fi/master/data_stocks/" + stock_name + ".csv")
     # stock_data.set_index("Timestamp",inplace=True)
     stock_data = stock_data[(stock_data['Timestamp'] >= start_date) & (stock_data['Timestamp'] <= end_date)]
 

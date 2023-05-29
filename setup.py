@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='mfinance',
-    version='0.1.0',
+    name='ma_fi',
+    version='1.0.1',
     description='Library for accessing financial data of Moroccan stock exchange companies',
     author='Ali Talbi',
     author_email='alitalbi73@gmail.com',
     url='https://github.com/alitalbi/mfinance',
-    packages=['mfinance'],
+    packages=['ma_fi'],
     install_requires=[
         'pandas',
         'numpy',
